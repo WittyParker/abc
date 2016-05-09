@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="21" tilewidth="16" tileheight="16" nextobjectid="34">
+ <tileset firstgid="1" name="mario_tileset" tilewidth="16" tileheight="16" tilecount="924" columns="33">
+  <image source="../mario_tileset.png" width="528" height="448"/>
+ </tileset>
+ <layer name="Background" width="50" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQkAAAwDsDL/huquJnYmkF5SVVVV1YcDHNzeHmgQAAA=
+  </data>
+ </layer>
+ <layer name="Graphics" width="50" height="21">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NiYGBgGiZ4qIOR5I87QAV3gfjeIPYwMf74C1TwD4j/09kfpITfYE5XpITfYPYHKWDUH8QBepURtPYHvcqI0XQ1uMCoPwYXGCh/8DEyMPADsQAjdcwbCfFB7TAjBmwG2rUFireSYC8t48McaLAFFFuSYMlbKEYHvUB/9eHw22BMV7j8sQ7oh/UjxB+MQxyD/AAAueYGfWgQAAA=
+  </data>
+ </layer>
+ <objectgroup name="Ground" width="1" heigth="1">
+  <object id="25" x="0" y="0" width="800" height="16"/>
+  <object id="26" x="784" y="16" width="16" height="304"/>
+  <object id="27" x="0" y="16" width="16" height="304"/>
+  <object id="28" x="0" y="320" width="800" height="16"/>
+  <object id="29" x="96" y="256" width="48" height="16"/>
+  <object id="30" x="464" y="224" width="48" height="16"/>
+  <object id="31" x="352" y="272" width="64" height="16"/>
+  <object id="32" x="560" y="256" width="64" height="16"/>
+  <object id="33" x="672" y="272" width="32" height="48"/>
+ </objectgroup>
+</map>
